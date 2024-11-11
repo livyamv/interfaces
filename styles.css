@@ -1,0 +1,55 @@
+* {
+  margin: 0; /*remove a margem padrão de todos os elementos*/
+  padding: 0; /*remove o padding de todos os elementos*/
+  box-sizing: border-box; /*Inclui bordas e preechimentos no cálculo da largura e da altura dos elementos*/
+} /*Fechamento do seletor universal*/
+
+body {
+  font-family: Arial, sans-serif; /*Define a fonte da página como arial, com uma alternativa de sans-serif*/
+  background-color: rgb(
+    235,
+    235,
+    235
+  ); /*Define cor de fundo do body/corpo do html*/
+  color: rgb(0, 0, 0); /*Define a cor do texto com tom suave de branco*/
+  text-align: center;
+} /*Fechamento do body*/
+
+body button{
+    background-color: #b95471;
+    color: rgb(131, 40, 67);
+    padding: 10px 20px;/*Define o espaço inteiro do botão em 10px(vertical) 20px(horizontal) */
+    border-radius: 5px;/*Arredonda os cantos do botão*/
+    border: none;/*Retirar a borda*/
+    cursor: pointer;
+    align-items: center;
+}
+
+/*Estilo do cabeçalho*/
+header {
+  background-color: #ff99b6; /*Cor de fundo em hexadecimal*/
+  padding: 40px;
+  text-align: center;
+} /*Fechamento do header*/
+
+section{
+    margin: 20px 0;/*Define a margem superior e inferior das seções com 20px e 0 para as laterais*/
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+main img {
+  max-width: 150px; /*Define a largura máxima das imagens dentro da main como 150px*/
+}
+
+footer {
+  background-color: #ff99b6; /*Cor de fundo em hexadecimal*/
+  padding: 40px;
+  text-align: center; /*Centraliza o texto do rodapé ao centro*/
+  bottom: 0; /*Alinha o rodapé abaixo da página*/
+  position: absolute; /*Posiciona o rodapé em for absoluta em relacão ao body */
+  width: 100%; /* Define a largura do rodapé com 100% da janela de visualização*/
+} /*Fechamento do footer*/
